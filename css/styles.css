@@ -1,242 +1,216 @@
-.mainlogo-blue{
+/* !general css      */
+
+/* !колір основного тексту #212121; */
+/* !колір вторинного тексту #757575; */
+/* !колір фону-основний #F5F5F5; колір фону 2 рівня #F5F4FA; колір фону 3 рівня #2F303A; */
+/* !білий для тексту #FFFFFF; */
+/* !акцент #2196F3 */
+
+:root{--primary-text-color:#757575;
+--title-text-color:#212121; 
+--accent-color:#2196F3;
+--color--for-dark-bg:#FFFFFF;
+--buttons-portf-background-color:#F5F4FA;}
+
+body{font-family: 'Roboto',sans-serif;
+    font-style: normal; background-color:#F5F5F5;color:  #757575 ;}
+
+/* !видалення підкреслень для посилань    */
+.link{text-decoration:none;}
+
+/* !видалення маркепів списку */
+.list{list-style:none;}
+
+
+/* !header css for all sheets */
+
+.mainlogo-color{color:var(--accent-color);
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: #2196F3;
-    }
-.mainlogo-white{
-    font-family: 'Raleway';
+    line-height: 1.19;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;}
+.mainlogo-simple{color:var(--color--for-dark-bg);font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-
+    line-height: 1.19;
+    /* identical to box height */
     
-    color: #000000;}
-.mainlogo{position: absolute;
-        width: 145px;
-        height: 31px;
-        left: 215px;
-        top: 24px; text-decoration: none;}
+    letter-spacing: 0.03em;}
 
-.no-bull{
-            list-style-type: none;} 
 
-.nav-studio{position: absolute;
-            width: 45px;
-            height: 16px;
-            left: 453px;
-            top: 32px;
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 16px;
-            letter-spacing: 0.02em;
-            
-            color: #2196F3;text-decoration: none;}
-
-.nav-portfolio{position: absolute;
-        width: 72px;
-        height: 16px;
-        left: 548px;
-        top: 32px;
-        
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-        
-        color: #212121;;text-decoration: none;}
-
-.nav-contacts{position: absolute;
-        width: 64px;
-        height: 16px;
-        left: 670px;
-        top: 32px;
-        
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-        
-        color: #212121;text-decoration: none;}
-
-.email-header{position: absolute;
-    width: 135px;
-    height: 16px;
-    left: 1078px;
-    top: 32px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
+.list-studio {color:var(--title-text-color);font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    
-    color: #2196F3;text-decoration: none;}
-
-.phone-header{position: absolute;
-    width: 122px;
-    height: 16px;
-    left: 1263px;
-    top: 32px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    
-    color: #757575; text-decoration: none;}
-
-.section-hero{position: absolute;
-        width: 1600px;
-        height: 600px;
-        left: 0px;
-        top: 80px;
-        
-        background: #2F303A;}
-
-.h1-text{position: absolute;
-        width: 696px;
-        height: 120px;
-        left: 452px;
-        top: 280px;
-        
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 60px;
-        /* or 136% */
-        
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        
-        color: #FFFFFF;
-        }
-
-    
-            border-radius: 4px;}
-
-.button-in-hero-text{position: absolute;color: #FFFFFF;
-        width: 152px;
-        height: 30px;
-        left: 724px;
-        top: 440px;
-        
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 30px;
-        /* identical to box height, or 188% */
-        
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
-        
-        color: #FFFFFF;}
-        
-.button-in-hero{position: absolute;
-            width: 216px;
-            height: 50px;
-            left: 692px;
-            top: 430px;
-            
-            background: #2196F3;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-            border-radius: 4px;}
-
-/* !FOOTEr-studio-page */
-
-.footer-studio-page{position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2094px;
-    
-    background: #2F303A;}
-
-.footer-adress-ul{
-    position: absolute;
-    width: 231px;
-    height: 81px;
-    left: 215px;
-    top: 2205px;
     }
 
-.footer-adress-text{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+.list-portfolio{color:var(--title-text-color);font-weight: 500;
     font-size: 14px;
-    line-height: 24px;
-    
-    letter-spacing: 0.03em;
-    
-    color: #FFFFFF;text-decoration: none;}
+    line-height: 1.14;
+    letter-spacing: 0.02em;}
+.list-contacts{color:var(--title-text-color);font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;}
 
-.footer-email{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    
-    letter-spacing: 0.03em;
-    
-    color: rgba(255, 255, 255, 0.6);text-decoration: none;}
 
-.footer-phone{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+
+.list-studio:hover{color:var(--accent-color);font-weight: 500;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;} 
+.list-studio:focus{color:var(--accent-color);font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;}
+.list-portfolio:hover{color:var(--accent-color);font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;} 
+.list-portfolio:focus{color:var(--accent-color);font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;}
+.list-contacts:hover{color:var(--accent-color);font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;}  
+.list-contacts:focus{color:var(--accent-color);font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;}
+
+.email-header{color:var(--primary-text-color);font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;}
+.email-header:hover{color:var(--accent-color);font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;} 
+.email-header:focus{color:var(--accent-color);font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;} 
+.phone-header{color:var(--primary-text-color);font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;}
+.phone-header:hover{color:var(--accent-color);font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;} 
+.phone-header:focus{color:var(--accent-color);font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;}
+
+/* !Підсвічування активної сторінки */
+.site-nav .current-link{color: var(--accent-color);}
+
+
+
+/* !footer css for all sheets */
+
+.footer-adress-text{color:var(--color--for-dark-bg)}
+.footer-adress-text:hover{color:var(--accent-color)}
+.footer-adress-text:focus{color:var(--accent-color)}
+.footer-email{color: rgba(255, 255, 255, 0.6)}
+.footer-email:hover{color:var(--accent-color)}
+.footer-email:focus{color:var(--accent-color)}
+.footer-phone{color: rgba(255, 255, 255, 0.6)}
+.footer-phone:hover{color:var(--accent-color)}
+.footer-phone:focus{color:var(--accent-color)}
+
+.footer-email{text-decoration:none;}
+.footer-phone{text-decoration:none;}
+
+/* !Секція герой */
+.hero .hero-title{color: var(--color--for-dark-bg); 
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    /* or 136% */
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;}
+
+/* !button - під питанням!!!!!!!!! */
+.button{cursor:pointer; color:var(--title-text-color); backround-color:var(buttons-portf-background-color);border-color: transparent;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, or 188% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;}
+
+.button:hover{cursor:pointer; background-color:var(--accent-color); color:var(--color--for-dark-bg); border-color:transparent;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, or 188% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;}
+
+.button:focus{background-color:var(--accent-color); color:var(--color--for-dark-bg); border-color:transparent;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, or 188% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;}
+/* !body */
+
+/* !Заголовки секцій */
+.title-third{color: var(--title-text-color);font-weight: 700;
+    font-size: 14px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
+
+.section-title{color: var(--title-text-color);font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;}
+
+.name-title{color: var(--title-text-color);font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;}
+
+.paragraph{font-size: 14px;
+    line-height: 1.71;
     /* or 171% */
     
-    letter-spacing: 0.03em;
-    
-    color: rgba(255, 255, 255, 0.6);text-decoration: none;}
+    letter-spacing: 0.03em;}
 
-.mainlogo-footer{position: absolute; padding:  60px 1236px 161px 219px;
-    text-decoration: none;}
+/* .Приховуємо заголовок на сторінці студія переваги */
 
-.mainlogo-blue-footer{font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    /* identical to box height */
-    
-    letter-spacing: 0.03em;
-    
-    color: #2196F3;}
-
-.mainlogo-white-footer{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    /* identical to box height */
-    
-    letter-spacing: 0.03em;
-    
-    color: #FFFFFF;}
-
-
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
