@@ -13,7 +13,7 @@
 --buttons-portf-background-color:#F5F4FA;}
 
 body{font-family: 'Roboto',sans-serif;
-    font-style: normal; background-color:#F5F5F5;color:  #757575 ;}
+    font-style: normal; background-color:#FFFFFF;color:#757575;}
 
 /* !видалення підкреслень для посилань    */
 .link{text-decoration:none;}
@@ -24,7 +24,7 @@ body{font-family: 'Roboto',sans-serif;
 
 /* !header css for all sheets */
 
-.mainlogo-color{color:var(--accent-color);
+.mainlogo-color-header{color:var(--accent-color);
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -33,7 +33,8 @@ body{font-family: 'Roboto',sans-serif;
     /* identical to box height */
     
     letter-spacing: 0.03em;}
-.mainlogo-simple{color:var(--color--for-dark-bg);font-family: 'Raleway';
+.mainlogo-simple-header{color:
+    #000000;font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -41,6 +42,8 @@ body{font-family: 'Roboto',sans-serif;
     /* identical to box height */
     
     letter-spacing: 0.03em;}
+
+  
 
 
 .list-studio {color:var(--title-text-color);font-weight: 500;
@@ -117,6 +120,28 @@ body{font-family: 'Roboto',sans-serif;
 
 /* !footer css for all sheets */
 
+  /* !footer logo */
+.mainlogo-color{color:var(--accent-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;}
+.mainlogo-simple{color:var(--color--for-dark-bg);font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;}
+
+.footer-studio-page{background-color:#2F303A ;}
+.adress{font-style: normal;font-family: inherit;}
+
 .footer-adress-text{color:var(--color--for-dark-bg)}
 .footer-adress-text:hover{color:var(--accent-color)}
 .footer-adress-text:focus{color:var(--accent-color)}
@@ -131,10 +156,12 @@ body{font-family: 'Roboto',sans-serif;
 .footer-phone{text-decoration:none;}
 
 /* !Секція герой */
+
+.hero{background-color: #2F303A;}
 .hero .hero-title{color: var(--color--for-dark-bg); 
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     /* or 136% */
     
     text-align: center;
@@ -142,7 +169,7 @@ body{font-family: 'Roboto',sans-serif;
     text-transform: uppercase;}
 
 /* !button - під питанням!!!!!!!!! */
-.button{cursor:pointer; color:var(--title-text-color); backround-color:var(buttons-portf-background-color);border-color: transparent;
+.button-hero{font-family: inherit; cursor:pointer; color:var(--color--for-dark-bg);background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -153,7 +180,29 @@ body{font-family: 'Roboto',sans-serif;
     text-align: center;
     letter-spacing: 0.06em;}
 
-.button:hover{cursor:pointer; background-color:var(--accent-color); color:var(--color--for-dark-bg); border-color:transparent;
+.button-hero:focus{font-family: inherit; cursor:pointer; color:var(--color--for-dark-bg);background-color: #188CE8;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        /* identical to box height, or 188% */
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;}
+
+.button-hero:hover{font-family: inherit; cursor:pointer; color:var(--color--for-dark-bg);background-color: #188CE8;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1.87;
+            /* identical to box height, or 188% */
+            
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.06em;}
+
+.button{font-family: inherit; cursor:pointer; color:var(--title-text-color); backround-color:var(--buttons-portf-background-color);border-color: transparent;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -164,7 +213,7 @@ body{font-family: 'Roboto',sans-serif;
     text-align: center;
     letter-spacing: 0.06em;}
 
-.button:focus{background-color:var(--accent-color); color:var(--color--for-dark-bg); border-color:transparent;
+.button:hover{font-family: inherit; cursor:pointer; background-color:var(--accent-color); color:var(--color--for-dark-bg); border-color:transparent;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -174,7 +223,20 @@ body{font-family: 'Roboto',sans-serif;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;}
-/* !body */
+
+.button:focus{font-family: inherit; cursor:pointer; background-color:var(--accent-color); color:var(--color--for-dark-bg); border-color:transparent;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, or 188% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;}
+
+
+    /* !body */
 
 /* !Заголовки секцій */
 .title-third{color: var(--title-text-color);font-weight: 700;
@@ -182,6 +244,13 @@ body{font-family: 'Roboto',sans-serif;
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;}
+
+.small-title-prtf{color: var(--title-text-color);font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;}
 
 .section-title{color: var(--title-text-color);font-weight: 700;
     font-size: 36px;
@@ -197,13 +266,33 @@ body{font-family: 'Roboto',sans-serif;
     text-align: center;
     letter-spacing: 0.03em;}
 
-.paragraph{font-size: 14px;
+.paragraph-studio{font-size: 14px;
     line-height: 1.71;
     /* or 171% */
+    
+    letter-spacing: 0.03em;
+    }
+
+
+
+.paragraph-positions{font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;}
+
+
+
+.paragraph-prtf{font-size: 16px;
+    line-height: 1.875;
+    /* identical to box height, or 188% */
     
     letter-spacing: 0.03em;}
 
 /* .Приховуємо заголовок на сторінці студія переваги */
+
+.studio-section-grey{background-color: #F5F4FA;}
 
 .visually-hidden {
     position: absolute;
@@ -214,3 +303,4 @@ body{font-family: 'Roboto',sans-serif;
     overflow: hidden;
     border: 0;
     clip: rect(0 0 0 0);
+
