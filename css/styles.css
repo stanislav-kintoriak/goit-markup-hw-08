@@ -13,7 +13,7 @@
 --buttons-portf-background-color:#F5F4FA;}
 
 body{font-family: 'Roboto',sans-serif;
-    font-style: normal; background-color:#FFFFFF;color:#757575;}
+    background-color:var(--color--for-dark-bg);color:var(--primary-text-color);}
 
 /* !видалення підкреслень для посилань    */
 .link{text-decoration:none;}
@@ -25,8 +25,7 @@ body{font-family: 'Roboto',sans-serif;
 /* !header css for all sheets */
 
 .mainlogo-color-header{color:var(--accent-color);
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family: 'Raleway'; sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -34,8 +33,7 @@ body{font-family: 'Roboto',sans-serif;
     
     letter-spacing: 0.03em;}
 .mainlogo-simple-header{color:
-    #000000;font-family: 'Raleway';
-    font-style: normal;
+    #000000;font-family: 'Raleway'; sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -122,16 +120,14 @@ body{font-family: 'Roboto',sans-serif;
 
   /* !footer logo */
 .mainlogo-color{color:var(--accent-color);
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family: 'Raleway'; sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     /* identical to box height */
     
     letter-spacing: 0.03em;}
-.mainlogo-simple{color:var(--color--for-dark-bg);font-family: 'Raleway';
-    font-style: normal;
+.mainlogo-simple{color:var(--color--for-dark-bg);font-family: 'Raleway'; sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -140,7 +136,11 @@ body{font-family: 'Roboto',sans-serif;
     letter-spacing: 0.03em;}
 
 .footer-studio-page{background-color:#2F303A ;}
-.adress{font-style: normal;font-family: inherit;}
+.adress{font-style: normal;font-family: inherit;font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;}
 
 .footer-adress-text{color:var(--color--for-dark-bg)}
 .footer-adress-text:hover{color:var(--accent-color)}
@@ -202,7 +202,7 @@ body{font-family: 'Roboto',sans-serif;
             text-align: center;
             letter-spacing: 0.06em;}
 
-.button{font-family: inherit; cursor:pointer; color:var(--title-text-color); backround-color:var(--buttons-portf-background-color);border-color: transparent;
+.button{font-family: inherit; cursor:pointer; color:var(--title-text-color); background-color:var(--buttons-portf-background-color);border-color: transparent;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -302,5 +302,5 @@ body{font-family: 'Roboto',sans-serif;
     padding: 0;
     overflow: hidden;
     border: 0;
-    clip: rect(0 0 0 0);
+    clip: rect(0 0 0 0);}
 
