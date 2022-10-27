@@ -23,6 +23,20 @@ body{font-family: 'Roboto',sans-serif;
 
 
 /* !header css for all sheets */
+.container-header{width:1600px;padding-left:215px;padding-right:215px;margin:0;padding-top:24px;padding-bottom:24px}
+
+.site-nav {display:flex;margin-left:93px}
+.list-item-header{margin-right: 50px;}
+.site-nav .list-item-header:last-child{margin-right: 0;}
+.list-header{display:block;padding-top:32px;padding-bottom:32px}
+
+
+.header-contacts{display:flex;margin-left:auto}
+.header-contacts .contacts-header-item +.contacts-header-item{margin-left:50px}
+
+.main-nav{display:flex;align-items: center;}
+.header-zone{display:flex;align-items: center;}
+
 
 .mainlogo-color-header{color:var(--accent-color);
     font-family: 'Raleway'; sans-serif;
@@ -157,7 +171,7 @@ body{font-family: 'Roboto',sans-serif;
 
 /* !Секція герой */
 
-.hero{background-color: #2F303A;}
+.hero{background-color: #2F303A;text-align:center}
 .hero .hero-title{color: var(--color--for-dark-bg); 
     font-weight: 900;
     font-size: 44px;
@@ -166,7 +180,7 @@ body{font-family: 'Roboto',sans-serif;
     
     text-align: center;
     letter-spacing: 0.06em;
-    text-transform: uppercase;}
+    text-transform: uppercase;margin-bottom:30px}
 
 /* !button - під питанням!!!!!!!!! */
 .button-hero{font-family: inherit; cursor:pointer; color:var(--color--for-dark-bg);background-color: var(--accent-color);
@@ -175,10 +189,9 @@ body{font-family: 'Roboto',sans-serif;
     line-height: 1.87;
     /* identical to box height, or 188% */
     
-    display: flex;
-    align-items: center;
+    
     text-align: center;
-    letter-spacing: 0.06em;}
+    letter-spacing: 0.06em;display:inline-block}
 
 .button-hero:focus{font-family: inherit; cursor:pointer; color:var(--color--for-dark-bg);background-color: #188CE8;
         font-weight: 700;
@@ -186,8 +199,7 @@ body{font-family: 'Roboto',sans-serif;
         line-height: 1.87;
         /* identical to box height, or 188% */
         
-        display: flex;
-        align-items: center;
+        
         text-align: center;
         letter-spacing: 0.06em;}
 
@@ -197,8 +209,6 @@ body{font-family: 'Roboto',sans-serif;
             line-height: 1.87;
             /* identical to box height, or 188% */
             
-            display: flex;
-            align-items: center;
             text-align: center;
             letter-spacing: 0.06em;}
 
@@ -208,8 +218,7 @@ body{font-family: 'Roboto',sans-serif;
     line-height: 1.87;
     /* identical to box height, or 188% */
     
-    display: flex;
-    align-items: center;
+    
     text-align: center;
     letter-spacing: 0.06em;}
 
@@ -219,8 +228,7 @@ body{font-family: 'Roboto',sans-serif;
     line-height: 1.87;
     /* identical to box height, or 188% */
     
-    display: flex;
-    align-items: center;
+    
     text-align: center;
     letter-spacing: 0.06em;}
 
@@ -230,8 +238,6 @@ body{font-family: 'Roboto',sans-serif;
     line-height: 1.87;
     /* identical to box height, or 188% */
     
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;}
 
