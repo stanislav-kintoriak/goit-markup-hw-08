@@ -310,7 +310,7 @@ body{font-family: 'Roboto',sans-serif;
 h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}
 
 /* !хедер */
-.container{width:1200px; margin: 0 auto;outline: 2px solid tomato;}
+.container{width:1200px; padding-right: 15px; padding-left: 15px; margin: 0 auto;outline: 2px solid tomato;}
 
 .site-nav {display:flex;margin-left:93px;outline: 2px solid tomato;}
 .list-item-header{margin-right: 50px;outline: 2px solid tomato;}
