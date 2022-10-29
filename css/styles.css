@@ -328,7 +328,7 @@ h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}
 .mainlogo-header{padding-top:25px;padding-bottom:25px;}
 
 /* !нижня рамка хедера */
-.header-zone{border-bottom: 1px solid #ECECEC;;}
+.header-space{border-bottom: 1px solid #ECECEC;;}
 
 /* !герой */
 .hero{background-color: #2F303A;text-align:center;margin: 0 auto;padding-top:200px;padding-bottom:200px;}
@@ -338,10 +338,10 @@ h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}
 /* .benefits{padding-top:94px;padding-bottom:118px;} */
 .benefits .list{display:flex;justify-content: space-around;justify-content: space-between;}
 .benefits-list>.item{margin-right:30px;}
-.benefits-list>.third-title{margin-bottom:10px;}
+.benefit{margin-bottom:10px;}
 
 /* !чим займаємося */
-
+.works{padding-top: 0px;}
 .works-list>.item{margin-right:30px;}
 .works>.section-title{margin:0;}
 .works-list{display: flex;margin-top:50px;justify-content: center;}
@@ -352,7 +352,7 @@ h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}
 .studio-section-grey{margin: 0 auto;}
 .names-text{text-align: center;padding-top: 30px;padding-bottom: 30px;}
 .team-list{display: flex;justify-content: space-around;}
-.team-item{background-color: var(--color--for-dark-bg);border-radius: 0px 0px 4px 4px;outline: 2px solid tomato}
+.team-item{background-color: var(--color--for-dark-bg);border-radius: 0px 0px 4px 4px;}
 .team-list>.team-item:nth-child(3n+0){padding-right:0}
 .name-title{margin-bottom: 10px;}
 .person-picture{display: block;}
@@ -361,7 +361,7 @@ h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}
 .footer-flex{display: flex;flex-direction: column;}
 
 .footer-studio-page{margin: 0 auto;padding-bottom: 60px;padding-top: 60px;}
-.mainlogo{margin-bottom:20px;margin-top:0;padding:0;}
+.mainlogo-footer{margin-bottom:20px;margin-top:0;padding:0;}
 .footer-adress-text{display:block;padding:0}
 .footer-email{margin-top:9px;display:block;padding:0}
 .footer-phone{margin-top:9px;display:block;padding:0}
