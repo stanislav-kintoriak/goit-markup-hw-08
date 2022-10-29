@@ -28,6 +28,7 @@ body{font-family: 'Roboto',sans-serif;
     padding: 0;
     margin: 0;}
 
+.section{padding-top: 94px;padding-bottom: 94px;}
 
 /* !header css for all sheets */
 
@@ -207,33 +208,33 @@ body{font-family: 'Roboto',sans-serif;
             border-radius: 4px;border-color: transparent;display:inline-block;padding:10px 32px}
 
 .button{font-family: inherit; cursor:pointer; color:var(--title-text-color); background-color:var(--buttons-portf-background-color);border-color: transparent;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.87;
+    line-height: 1.625;
     /* identical to box height, or 188% */
     
     
     text-align: center;
-    letter-spacing: 0.06em;border-radius: 4px;}
+    letter-spacing: 0.03em;border-radius: 4px;}
 
 .button:hover{font-family: inherit; cursor:pointer; background-color:var(--accent-color); color:var(--color--for-dark-bg); border-color:transparent;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.87;
+    line-height: 1.625;
     /* identical to box height, or 188% */
     
     
     text-align: center;
-    letter-spacing: 0.06em;border-radius: 4px;}
+    letter-spacing: 0.03em;border-radius: 4px;}
 
 .button:focus{font-family: inherit; cursor:pointer; background-color:var(--accent-color); color:var(--color--for-dark-bg); border-color:transparent;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.87;
+    line-height: 1.625;
     /* identical to box height, or 188% */
     
     text-align: center;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.03em;
     border-radius: 4px;}
 
 
@@ -310,66 +311,75 @@ body{font-family: 'Roboto',sans-serif;
 h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}
 
 /* !хедер */
-.container{width:1200px; padding-right: 15px; padding-left: 15px; margin: 0 auto;outline: 2px solid tomato;}
+.container{width:1300px; padding-right: 15px; padding-left: 15px; margin: 0 auto;}
 
-.site-nav {display:flex;margin-left:93px;outline: 2px solid tomato;}
-.list-item-header{margin-right: 50px;outline: 2px solid tomato;}
-.site-nav .list-item-header:last-child{margin-right: 0;outline: 2px solid tomato;}
-.list-header{display:block;padding-top:32px;padding-bottom:32px;outline: 2px solid tomato;}
+.site-nav {display:flex;margin-left:93px;}
+.list-item-header{margin-right: 50px;}
+.site-nav .list-item-header:last-child{margin-right: 0;}
+.list-header{display:block;padding-top:32px;padding-bottom:32px;}
 
 
-.header-contacts{display:flex;margin-left:auto;outline: 2px solid tomato;}
-.header-contacts .contacts-header-item +.contacts-header-item{margin-left:50px;outline: 2px solid tomato;}
+.header-contacts{display:flex;margin-left:auto;}
+.header-contacts .contacts-header-item +.contacts-header-item{margin-left:50px;}
 
 .main-nav{display:flex;align-items: center;}
-.header-zone{display:flex;align-items: center;}
+.header-zone{display:flex;align-items: center;align-items:center}
+
+.mainlogo-header{padding-top:25px;padding-bottom:25px;}
 
 /* !нижня рамка хедера */
 .header-zone{border-bottom: 1px solid #ECECEC;;}
 
 /* !герой */
-.hero{background-color: #2F303A;text-align:center;margin: 0 auto;width:1600px;outline: 2px solid tomato;padding-left:452px;padding-right:452px}
+.hero{background-color: #2F303A;text-align:center;margin: 0 auto;padding-top:200px;padding-bottom:200px;}
+.hero-title{margin-bottom:30px}
 
 /* !переваги */
 /* .benefits{padding-top:94px;padding-bottom:118px;} */
-.benefits .list{display:flex;outline: 2px solid tomato}
-.benefits-list>.third-title{margin-bottom:10px;outline: 2px solid tomato}
+.benefits .list{display:flex;justify-content: space-around;justify-content: space-between;}
+.benefits-list>.item{margin-right:30px;}
+.benefits-list>.third-title{margin-bottom:10px;}
 
 /* !чим займаємося */
-.works{outline: 2px solid tomato}
-.works-list>.item{margin-right:30px;outline: 2px solid tomato;}
-.works>.section-title{margin:0;outline: 2px solid tomato;}
-.works-list{display: flex;margin-top:50px;}
+
+.works-list>.item{margin-right:30px;}
+.works>.section-title{margin:0;}
+.works-list{display: flex;margin-top:50px;justify-content: center;}
 .works-list>.item:nth-child(3n+0){margin-right:0}
+.work-picture{display: block;}
 
 /* !наша команда */
-.studio-section-grey{width:1600px;margin: 0 auto;padding-right:215px;padding-left:215px;}
-.title-team{margin:0}
-.team-list{display: flex;margin-top:50px;outline: 2px solid tomato}
-.team-item{;background-color: var(--color--for-dark-bg);border-radius: 0px 0px 4px 4px;margin-right:30px;outline: 2px solid tomato}
+.studio-section-grey{margin: 0 auto;}
+.names-text{text-align: center;padding-top: 30px;padding-bottom: 30px;}
+.team-list{display: flex;justify-content: space-around;}
+.team-item{background-color: var(--color--for-dark-bg);border-radius: 0px 0px 4px 4px;outline: 2px solid tomato}
 .team-list>.team-item:nth-child(3n+0){padding-right:0}
-.name-title{margin-bottom: 10px; margin-top: 30px;outline: 2px solid tomato}
-.paragraph-positions{margin-bottom: 30px;outline: 2px solid tomato}
+.name-title{margin-bottom: 10px;}
+.person-picture{display: block;}
+.title-team{margin-bottom:50px}
 /* !футер */
+.footer-flex{display: flex;flex-direction: column;}
 
-.footer-studio-page{width:1600px;outline: 2px solid tomato;margin: 0 auto;padding-left:215px;padding-right:1154px;padding-bottom: 60px;padding-top:60px}
-.footer-adress-text{margin-top:20px;display:block;outline: 2px solid tomato;padding:0}
-.footer-email{margin-top:9px;display:block;outline: 2px solid tomato;padding:0}
-.footer-phone{margin-top:9px;display:block;outline: 2px solid tomato;padding:0}
+.footer-studio-page{margin: 0 auto;padding-bottom: 60px;padding-top: 60px;}
+.mainlogo{margin-bottom:20px;margin-top:0;padding:0;}
+.footer-adress-text{display:block;padding:0}
+.footer-email{margin-top:9px;display:block;padding:0}
+.footer-phone{margin-top:9px;display:block;padding:0}
 
 /* !кнопки-фільтри портфоліо */
 .filters{display: flex; justify-content: center;}
 .filters>.button:nth-last-child{margin-right:0}
-.button{margin-right:8px;outline: 2px solid tomato;padding:6px 22px}
+.button{margin-right:8px;padding:6px 22px}
 .buttons:nth-child(1){padding:6px 25px}
 /* !приклади робіт портфоліо */
 
-.products{display: flex;flex-wrap: wrap;margin-top: 56px;justify-content:center;outline: 2px solid tomato;}
+.products{display: flex;flex-wrap: wrap;margin-top: 56px;justify-content:center;}
 .products .list{margin-right: 30px;margin-bottom:30px; width: calc(100%-60px)/3);}
 .products .list:nth-child(3n){margin-right: 0px;}
 .products .list:nth-child(1n+7){margin-bottom: 0px;}
-.small-title-prtf{margin-top: 20px;margin-right:24px;margin-left:24px;padding:0px;display: block;outline: 2px solid tomato;}
-.paragraph-prtf{margin-top: 4px;margin-bottom: 20px;color:var(--primary-text-color);margin-right:24px;margin-left:24px;outline: 2px solid tomato;padding:0px;display: block;}
+.description{padding:20px 24px}
+.small-title-prtf{margin-bottom:4px;padding:0px;display: block;}
+.paragraph-prtf{color:var(--primary-text-color);display: block;}
 
 /* !Додаємо нижню рамку в картки портфоліо */
 .product-item{border: 1px solid #EEEEEE;box-sizing: border-box;}
@@ -377,6 +387,3 @@ h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}
 /* !прибираємо підкреслення тексту в посиланнях продуктів портфоліо */
 .product-link{text-decoration: none};
 
-/* !встановлюємо нижній паддінг 94пікселя для всіх секцій */
-/* Воно чомусь не спрацьовує!!!! */
-.section{padding-bottom:94px}
