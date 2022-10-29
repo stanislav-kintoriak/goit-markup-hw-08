@@ -15,7 +15,7 @@
 
 
 body{font-family: 'Roboto',sans-serif;
-    background-color:var(--color--for-dark-bg);color:var(--primary-text-color);margin:0}
+    background-color:var(--color--for-dark-bg);color:var(--primary-text-color);margin:0;}
 /* !видалення дефолтних маржинів *}
 
 
@@ -310,7 +310,7 @@ body{font-family: 'Roboto',sans-serif;
 h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}
 
 /* !хедер */
-.container{width:1230px;padding-left:15px;padding-right:15px; margin: 0 auto;outline: 2px solid tomato;}
+.container{width:1200px;padding-left:15px;padding-right:15px; margin: 0 auto;outline: 2px solid tomato;}
 
 .site-nav {display:flex;margin-left:93px;outline: 2px solid tomato;}
 .list-item-header{margin-right: 50px;outline: 2px solid tomato;}
@@ -357,5 +357,16 @@ h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}
 /* !кнопки-фільтри портфоліо */
 .filters{display: flex;padding-top:94px; justify-content: center;}
 .filters>.button:nth-last-child{margin-right:0}
-.button{margin-right:8px;outline: 2px solid tomato;}
+.button{margin-right:8px;outline: 2px solid tomato;padding:6px 22px}
+.buttons:nth-child(1){padding:6px 25px}
 /* !приклади робіт портфоліо */
+
+.products{display: flex;flex-wrap: wrap;margin-top: 56px;margin-bottom:94px;justify-content:center;outline: 2px solid tomato;}
+.products .list{margin-right: 30px;margin-bottom:30px; width: calc(100%-60px)/3);outline: 2px solid tomato}
+.products .list:nth-child(3n){margin-right: 0px;}
+.products .list:nth-child(1n+7){margin-bottom: 0px;}
+.small-title-prtf{margin-top: 20px;outline: 2px solid tomato;margin-right:24px;margin-left:24px;padding:0px;display: block;}
+.paragraph-prtf{margin-top: 4px;margin-bottom: 20px;color:var(--primary-text-color);margin-right:24px;margin-left:24px;outline: 2px solid tomato;padding:0px;display: block;}
+
+/* !прибираємо підкреслення тексту в посиланнях продуктів портфоліо */
+.product-link{text-decoration: none};
