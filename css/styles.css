@@ -246,9 +246,15 @@ body{font-family: 'Roboto',sans-serif;
 .svg-phone{fill:var(--primary-text-color);cursor: pointer;margin-right:10px;}
 .svg-envelope{fill:var(--primary-text-color);cursor: pointer;margin-right:10px;}
 .social-net-card-pers{display: flex;justify-content: center;margin-bottom: 30px;}
-.personals-svg{display: block;border-radius: 50%;width:44px;height:44px;fill:#AFB1B8;}
+.personals-svg{display: block;border-radius: 50%;width:44px;height:44px;fill:#AFB1B8;display: flex;
+    justify-content: center;
+    align-items: center;}
+.personals-svg:not(:last-child){margin-right: 0px;}
 
-.personals-svg:hover{color: var(--color--for-dark-bg);border-radius: 50%;background-color: var(--accent-color);fill:var(--color--for-dark-bg);background-position: 50% 50%;}
+.personals-svg:hover{background-color:var(--accent-color);border-radius: 50%;fill: var(--color--for-dark-bg);display: flex;
+    justify-content: center;
+    align-items: center;}
+
 
 /* !Заголовки секцій */
 .title-third{color: var(--title-text-color);font-weight: 700;
