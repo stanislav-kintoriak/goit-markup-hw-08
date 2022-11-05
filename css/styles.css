@@ -162,7 +162,9 @@ body{font-family: 'Roboto',sans-serif;
 
 /* !Секція герой */
 
-.hero{background-color: #2F303A;text-align:center;padding-top:200px;padding-bottom:210px}
+
+.hero{background-color: #C4C4C4;text-align:center;padding-top:200px;padding-bottom:210px;max-width: 1600px;height: 600px;background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url(../images/here-background-image.jpg
+    );}
 
 .hero .hero-title{color: var(--color--for-dark-bg); 
     font-weight: 900;
@@ -240,6 +242,14 @@ body{font-family: 'Roboto',sans-serif;
 
     /* !body */
 
+.benefits-svg-zone{background-color:#F5F4FA; margin-bottom: 30px; padding-bottom: 25px;padding: 25px 100px;}
+.svg-phone{fill:var(--primary-text-color);cursor: pointer;margin-right:10px;}
+.svg-envelope{fill:var(--primary-text-color);cursor: pointer;margin-right:10px;}
+.social-net-card-pers{display: flex;justify-content: center;margin-bottom: 30px;}
+.personals-svg{display: block;border-radius: 50%;width:44px;height:44px;fill:#AFB1B8;}
+
+.personals-svg:hover{color: var(--color--for-dark-bg);border-radius: 50%;background-color: var(--accent-color);fill:var(--color--for-dark-bg);background-position: 50% 50%;}
+
 /* !Заголовки секцій */
 .title-third{color: var(--title-text-color);font-weight: 700;
     font-size: 14px;
@@ -311,7 +321,7 @@ body{font-family: 'Roboto',sans-serif;
 h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}
 
 /* !хедер */
-.container{width:1300px; padding-right: 15px; padding-left: 15px; margin: 0 auto;}
+.container{width:1200px; padding-right: 15px; padding-left: 15px; margin: 0 auto;}
 
 .site-nav {display:flex;margin-left:93px;}
 .list-item-header{margin-right: 50px;}
@@ -374,7 +384,7 @@ h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}
 /* !приклади робіт портфоліо */
 
 .products{display: flex;flex-wrap: wrap;margin-top: 56px;justify-content:center;}
-.products .list{margin-right: 30px;margin-bottom:30px; width: calc(100%-60px)/3);}
+.products .list{margin-right: 30px;margin-bottom:30px; width: calc(100%-60px)/3;box-sizing: border-box;}
 .products .list:nth-child(3n){margin-right: 0px;}
 .products .list:nth-child(1n+7){margin-bottom: 0px;}
 .description{padding:20px 24px}
@@ -386,4 +396,6 @@ h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}
 
 /* !прибираємо підкреслення тексту в посиланнях продуктів портфоліо */
 .product-link{text-decoration: none};
+
+
 
