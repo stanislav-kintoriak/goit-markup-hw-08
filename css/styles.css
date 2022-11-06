@@ -245,6 +245,9 @@ body{font-family: 'Roboto',sans-serif;
 
 
     /* !body */
+.svg-envelope{margin-right: 10px;}
+.svg-phone{margin-right: 10px;}
+
 
 .benefits-svg-zone{background-color:#F5F4FA; margin-bottom: 30px; display: flex;align-items: center;justify-content: center;width: 270px;height:120px}
 
