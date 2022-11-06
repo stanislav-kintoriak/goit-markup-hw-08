@@ -446,12 +446,12 @@ h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}
 .product .list{flex-basis: calc((100% - 60px)/3);}
 .products .list:nth-child(3n){margin-right: 0px;}
 .products .list:nth-child(1n+7){margin-bottom: 0px;}
-.description{padding:20px 24px}
+.description{padding:20px 24px;border: 1px solid #EEEEEE;}
 .small-title-prtf{margin-bottom:4px;padding:0px;display: block;}
 .paragraph-prtf{color:var(--primary-text-color);display: block;}
-
+.product-image{display: block;}
 /* !Додаємо нижню рамку в картки портфоліо */
-.product-item{border: 1px solid #EEEEEE;box-sizing: border-box;}
+.product-item{box-sizing: border-box;}
 
 .product-link{display: block;}
 
