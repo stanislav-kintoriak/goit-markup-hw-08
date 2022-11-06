@@ -30,6 +30,8 @@ body{font-family: 'Roboto',sans-serif;
 
 .section{padding-top: 94px;padding-bottom: 94px;}
 
+.container{width:1200px; padding-right: 15px; padding-left: 15px; margin: 0 auto;}
+
 /* !header css for all sheets */
 
 .mainlogo-color-header{color:var(--accent-color);
@@ -243,17 +245,62 @@ body{font-family: 'Roboto',sans-serif;
     /* !body */
 
 .benefits-svg-zone{background-color:#F5F4FA; margin-bottom: 30px; padding-bottom: 25px;padding: 25px 100px;}
+
 .svg-phone{fill:var(--primary-text-color);cursor: pointer;margin-right:10px;}
+
 .svg-envelope{fill:var(--primary-text-color);cursor: pointer;margin-right:10px;}
+
 .social-net-card-pers{display: flex;justify-content: center;margin-bottom: 30px;}
+
 .personals-svg{display: block;border-radius: 50%;width:44px;height:44px;fill:#AFB1B8;display: flex;
     justify-content: center;
     align-items: center;}
+
+.personals-svg{margin-right: 10px;}
+
 .personals-svg:not(:last-child){margin-right: 0px;}
 
 .personals-svg:hover{background-color:var(--accent-color);border-radius: 50%;fill: var(--color--for-dark-bg);display: flex;
     justify-content: center;
     align-items: center;}
+
+.personals-svg:focus{background-color:var(--accent-color);border-radius: 50%;fill: var(--color--for-dark-bg);display: flex;
+        justify-content: center;
+        align-items: center;}
+
+.companies-svgs{display:block;width:170px;height:92px; border: 1px solid #AFB1B8;border-radius: 4px;fill:#AFB1B8;display: flex;
+    justify-content: center;
+    align-items: center;margin-right:30px;}
+
+.companies-svgs:hover{border: 1px solid var(--accent-color);fill: var(--accent-color);}
+
+.companies-svgs:focus{border: 1px solid var(--accent-color);fill: var(--accent-color);}
+
+.footer-zone{display: flex}
+
+.follow-zone{display: flex;flex-direction: column;}
+
+.follow-text-footer{font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;color:var(--color--for-dark-bg);}
+
+.social-net-card-footer{display: flex;justify-content: center;margin-top: 20px;}
+
+.follow-svg-footer{display: block;border-radius: 50%;width:44px;height:44px;fill:var(--color--for-dark-bg);display: flex;
+    justify-content: center;
+    align-items: center;background: rgba(255, 255, 255, 0.1);}
+
+.follow-svg-footer:hover{background: var(--accent-color);}
+
+.follow-svg-footer:focus{background: var(--accent-color);}
+
+.follow-zone{padding-top: 12px;margin-left: 70px;}
+
+.follow-svg-footer{margin-right: 10px;}
+
+.follow-svg-footer:not(:last-child){margin-right: 0px;}
 
 
 /* !Заголовки секцій */
@@ -327,7 +374,7 @@ body{font-family: 'Roboto',sans-serif;
 h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}
 
 /* !хедер */
-.container{width:1200px; padding-right: 15px; padding-left: 15px; margin: 0 auto;}
+
 
 .site-nav {display:flex;margin-left:93px;}
 .list-item-header{margin-right: 50px;}
@@ -402,6 +449,8 @@ h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}
 
 /* !прибираємо підкреслення тексту в посиланнях продуктів портфоліо */
 .product-link{text-decoration: none};
+
+
 
 
 
