@@ -224,7 +224,7 @@ body{font-family: 'Roboto',sans-serif;
 .button:hover{font-family: inherit; cursor:pointer; background-color:var(--accent-color); color:var(--color--for-dark-bg); border-color:transparent;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.625;
+    line-height: 1.625;box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     /* identical to box height, or 188% */
     
     
@@ -234,7 +234,7 @@ body{font-family: 'Roboto',sans-serif;
 .button:focus{font-family: inherit; cursor:pointer; background-color:var(--accent-color); color:var(--color--for-dark-bg); border-color:transparent;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.625;
+    line-height: 1.625; box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     /* identical to box height, or 188% */
     
     text-align: center;
