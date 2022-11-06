@@ -415,7 +415,7 @@ h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}
 .studio-section-grey{margin: 0 auto;}
 .names-text{text-align: center;padding-top: 30px;padding-bottom: 30px;}
 .team-list{display: flex;justify-content: space-around;}
-.team-item{background-color: var(--color--for-dark-bg);border-radius: 0px 0px 4px 4px;}
+.team-item{background-color: var(--color--for-dark-bg);border-radius: 0px 0px 4px 4px;box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);}
 .team-list>.team-item:nth-child(3n+0){padding-right:0}
 .name-title{margin-bottom: 10px;}
 .person-picture{display: block;}
@@ -447,6 +447,7 @@ h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}
 /* !Додаємо нижню рамку в картки портфоліо */
 .product-item{border: 1px solid #EEEEEE;box-sizing: border-box;}
 
+.product-item:hover{box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
 /* !прибираємо підкреслення тексту в посиланнях продуктів портфоліо */
 .product-link{text-decoration: none};
 
