@@ -77,7 +77,7 @@
       <section class="hero">
         <div class="container">
         <br class="container"><h1 class="hero-title">Ефективні рішення для <br>вашого бізнесу</h1></h1>
-        <button type="button" class="button-hero">Замовити послугу</button>
+        <button data-modal-open type="button" class="button-hero">Замовити послугу</button>
       </div>
       </section>
       <section class="section benefits section-vertical">
@@ -366,7 +366,13 @@
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg></a></li>
       </div>
-      
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <p></p>
+        <button data-modal-close>Закрыть</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
