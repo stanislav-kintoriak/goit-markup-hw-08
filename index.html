@@ -367,12 +367,19 @@
                 </svg></a></li>
       </div>
     </footer>
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <p></p>
-        <button data-modal-close>Закрыть</button>
+        <button class="modal-button" data-modal-close>
+          <svg class="modal-button-svg" width="30" height="30">
+            <use href="./images/close.svg"></use>
+          </svg>
+        </button>
       </div>
     </div>
+
     <script src="./js/modal.js"></script>
+
   </body>
 </html>
