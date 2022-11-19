@@ -529,7 +529,7 @@ line-height: 1.143;}
 
 
 /* !padding для модалки 40 пікс. */
-.modal-form{padding: 40px;}
+.modal{padding: 40px}
 
 .input-element{display:block;width: 448px;height: 40px;border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;margin-bottom: 28px;padding-left: 42px;cursor: pointer;font-size: 16px;}
@@ -550,3 +550,14 @@ line-height: 1.143;}
     align-items: center;
     letter-spacing: 0.03em;}
 
+.modal-title{display: flex;justify-content: center;margin-bottom: 30px; font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;color: var(--title-text-color);}
+
+.modal-button-submit{display: block;margin: 0 auto;height: 50px;width:200px;background:var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;border: transparent;font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;color: var(--color--for-dark-bg);margin-top: 30px;}
