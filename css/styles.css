@@ -531,5 +531,16 @@ line-height: 1.143;}
 /* !padding для модалки 40 пікс. */
 .modal-form{padding: 40px;}
 
-.input-element{display:block;width: 100%;}
+.input-element{display:block;width: 448px;height: 40px;border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;margin-bottom: 28px;padding-left: 42px;cursor: pointer;font-size: 16px;}
+
+
+
+
+
+.form-footer-input::placeholder{font-weight: 400; font-size: 16px;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;}
 
