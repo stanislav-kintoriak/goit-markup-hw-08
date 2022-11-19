@@ -503,11 +503,32 @@
             </li>
           </ul>
         </div>
+      <div>
+        <form>
+          <input type="e-mail" name="e-mail" id="e-mail" placeholder="E-mail"/>
+          <label for="e-mail">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</label>
+          <button type="submit">Підписатися</button>
+        </form>
+      </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <p></p>
+        <form class="modal-form" name="callback-form">
+          <input class="input-element" type="text" name="name" id="name"/>
+          <label for="name">Ім'я</label>
+          <input class="input-element" type="tel" name="phone-number" id="phone-number"/>
+          <label for="tel">Телефон</label>
+          <input class="input-element" type="e-mail" name="e-mail" id="e-mail"/>
+          <label for="e-mail">Пошта</label>
+          <!-- <textarea name="comment" id="comment" rows="5" placeholder="Введіть текст">
+          <label class="input-element" for="comment">Коментар</label>
+          </textarea> -->
+          <input class="input-element" type="checkbox" name="checkbox" id="checkbox"/>
+          <label for="checkbox">Погоджуюся з розсилкою та приймаю <a href="" target="_self" rel="noreferrer noopener nofollow">Умови договору</a></label>
+          <button type="submit">Відправити</button></form>
+        
         <button class="modal-button" data-modal-close>
           <svg class="svg-modal-close" width="11" height="11">
             <use href="./images/icons.svg#icon-close"></use>

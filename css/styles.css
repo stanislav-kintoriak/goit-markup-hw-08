@@ -524,3 +524,12 @@ line-height: 1.143;}
 .product-item:hover .card-portfolio-description{transform:translateY(0%)}
 
 .works-list>.item-card{margin-right:30px;}
+
+/* !Домашнє завдання 6 - форми */
+
+
+/* !padding для модалки 40 пікс. */
+.modal-form{padding: 40px;}
+
+.input-element{display:block;width: 100%;}
+
