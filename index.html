@@ -516,17 +516,25 @@
       <div class="modal">
         <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
         <form class="modal-form" name="callback-form">
-          <input class="input-element" type="text" name="name" id="name"/>
-          <label for="name">Ім'я</label>
-          <input class="input-element" type="tel" name="phone-number" id="phone-number"/>
-          <label for="tel">Телефон</label>
-          <input class="input-element" type="e-mail" name="e-mail" id="e-mail"/>
-          <label for="e-mail">Пошта</label>
-          <textarea class="modal-textarea"  name="comment" id="comment" rows="5" placeholder="Введіть текст">
-          
-          </textarea>
+          <div class="input-label">
+            <input class="input-element" type="text" name="name" id="name"/>
+            <label class="labels-modal" for="name">Ім'я</label>
+          </div>
+          <div class="input-label">
+            <input class="input-element" type="tel" name="phone-number" id="phone-number"/>
+            <label class="labels-modal" for="tel">Телефон</label>
+          </div>
+          <div class="input-label">
+            <input class="input-element" type="e-mail" name="e-mail" id="e-mail"/>
+            <label class="labels-modal" for="e-mail">Пошта</label></div>
+          <div class="input-label">
+            <textarea class="modal-textarea"  name="comment" id="comment" rows="5" placeholder="Введіть текст">
+            </textarea>
+            <label label class="labels-modal" for="comment">Коментар</label>
+          </div>
+         
           <input class="checkbox-modal" type="checkbox" name="checkbox" id="checkbox"/>
-          <label for="checkbox">Погоджуюся з розсилкою та приймаю <a href="" target="_self" rel="noreferrer noopener nofollow">Умови договору</a></label>
+          <label for="checkbox">Погоджуюся з розсилкою та приймаю <a class="deal-requirements-link" href="" target="_self" rel="noreferrer noopener nofollow">Умови договору</a></label>
           <button class="modal-button-submit" type="submit">Відправити</button></form>
         
         <button class="modal-button" data-modal-close>
