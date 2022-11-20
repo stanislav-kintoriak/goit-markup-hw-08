@@ -539,7 +539,7 @@ line-height: 1.143;}
 
 .modal-textarea::placeholder{font-size: 12px;line-height: 1.16;letter-spacing: 0.01em;color: rgba(117, 117, 117, 0.5)}
 
-.texarea-div{margin-bottom: 20px;}
+
 
 .labels-modal{font-size: 12px;line-height: 1.16;letter-spacing: 0.01em;color: #757575;position: absolute;top: -40%;left: 0;}
 
@@ -593,24 +593,28 @@ line-height: 1.143;}
 
 
 /* !кастомні стилі для чекбокса */
-.check-line{width:448px;}
+.check-line{display: flex;align-items: center;padding-left: 15px;position: relative;}
 
-.checkbox-agree{display: flex;align-items: center;}
+.checkbox-agree{display: flex;align-items: center;padding-left:25px;font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;}
 
 .checkbox-input{border: 2px solid tomato;}
 
-.checkbox-agree .icon-wrapper{margin-right: 7px;width: 16px;height: 15px;border: 2px solid var(--title-text-color);border-radius: 2px;font-size: 14px;
+.checkbox-icon{pointer-events: none}
+
+.icon-wrapper{fill: transparent;display: flex;justify-content: center;align-items: center;width: 16px;height: 15px;border: 2px solid var(--title-text-color);border-radius: 2px;pointer-events: none; position: absolute;top:50%;left: 4%;transform: translateY(-50%);}
+
+.deal-requirements-link{font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
-    }
+    color: #757575;pointer-events: none;}
 
-.icon-wrapper{fill: transparent;display: flex;justify-content: center;align-items: center;}
+.checkbox-input:checked  + .icon-wrapper{background-color: var(--accent-color);border: none;}
 
-.checkbox-line .checkbox-input:checked  .checkbox-agree .icon-wrapper{background-color: var(--accent-color);}
-
-.checkbox-line .checkbox-input:checked  .checkbox-agree .checkbox-icon{fill: var(--accent-color);}
+.checkbox-input:checked  + .icon-wrapper .checkbox-icon {fill: var(--color--for-dark-bg);}
 
 
 /* !Стилі для лінка в лейбл до чекбокса */
-.deal-requirements-link{color: var(--accent-color);}
+.deal-requirements-link{color: var(--accent-color)}
