@@ -541,7 +541,9 @@ line-height: 1.143;}
 
 .texarea-div{margin-bottom: 20px;}
 
-.labels-modal{font-size: 12px;line-height: 1.16;letter-spacing: 0.01em;color: #757575;position: absolute;top: -18px;left: 0;}
+.labels-modal{font-size: 12px;line-height: 1.16;letter-spacing: 0.01em;color: #757575;position: absolute;top: -40%;left: 0;}
+
+.label-modal-textarea{font-size: 12px;line-height: 1.16;letter-spacing: 0.01em;color: #757575;position: absolute;top: -13%;left: 0;}
 
 .input-label{position: relative;}
 
@@ -581,5 +583,6 @@ line-height: 1.143;}
 /* !зміна кольору для іконки закриття модалки */
 .modal-button:hover .svg-modal-close{fill: var(--accent-color);}
 
-.input-icon{display: block;position: absolute;left: 0;top: 50%;transform: translateY(-50%);margin-left: 15px;pointer-events: none;}
+.input-icon{display: block;position: absolute;left: 0;top: 50%;transform: translateY(-50%);margin-left: 15px;pointer-events: none;fill: var(--title-text-color);}
 
+.input-element:focus ~ .input-icon{fill: var(--accent-color);}
