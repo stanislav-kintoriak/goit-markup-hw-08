@@ -591,15 +591,26 @@ line-height: 1.143;}
 .modal-textarea:focus{border: 1px solid #2196F3;
     border-radius: 4px;outline: none;}
 
-/* !Приховуємо базовий чекбокс */
-.checkbox-modal{position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    border: 0;
-    clip: rect(0 0 0 0);display:block}
+
+/* !кастомні стилі для чекбокса */
+.check-line{width:448px;}
+
+.checkbox-agree{display: flex;align-items: center;}
+
+.checkbox-input{border: 2px solid tomato;}
+
+.checkbox-agree .icon-wrapper{margin-right: 7px;width: 16px;height: 15px;border: 2px solid var(--title-text-color);border-radius: 2px;font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+
+.icon-wrapper{fill: transparent;display: flex;justify-content: center;align-items: center;}
+
+.checkbox-line .checkbox-input:checked  .checkbox-agree .icon-wrapper{background-color: var(--accent-color);}
+
+.checkbox-line .checkbox-input:checked  .checkbox-agree .checkbox-icon{fill: var(--accent-color);}
+
 
 /* !Стилі для лінка в лейбл до чекбокса */
 .deal-requirements-link{color: var(--accent-color);}
