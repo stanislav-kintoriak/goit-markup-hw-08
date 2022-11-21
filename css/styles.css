@@ -30,7 +30,7 @@ body{font-family: 'Roboto',sans-serif;
 
 .section{padding-top: 94px;padding-bottom: 94px;}
 
-.container{width:1200px; padding-right: 15px; padding-left: 15px; margin: 0 auto;}
+.container{width:1200px; padding-right: 15px; padding-left: 15px; margin: 0 auto;justify-content: space-between;}
 
 /* !header css for all sheets */
 
