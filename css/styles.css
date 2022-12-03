@@ -170,7 +170,7 @@ body{font-family: 'Roboto',sans-serif;
 .hero{background-color: #C4C4C4;text-align:center;padding-top:200px;padding-bottom:210px;max-width: 1600px;height: 600px;background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url(../images/here-background-image.jpg
     );}
 
-.hero .hero-title{color: var(--color--for-dark-bg); 
+.hero .hero__title{color: var(--color--for-dark-bg); 
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -181,7 +181,7 @@ body{font-family: 'Roboto',sans-serif;
     text-transform: uppercase;margin-bottom:30px;margin-top:0;}
 
 /* !button - під питанням!!!!!!!!! */
-.button-hero{font-family: inherit; cursor:pointer; color:var(--color--for-dark-bg);background-color: var(--accent-color);
+.hero__button{font-family: inherit; cursor:pointer; color:var(--color--for-dark-bg);background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -192,7 +192,7 @@ body{font-family: 'Roboto',sans-serif;
     letter-spacing: 0.06em;display:inline-block;
     border-radius: 4px;border-color: transparent;padding-top:10;padding:10px 32px;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)}
 
-.button-hero:focus{font-family: inherit; cursor:pointer; color:var(--color--for-dark-bg);background-color: #188CE8;
+.hero__button:focus{font-family: inherit; cursor:pointer; color:var(--color--for-dark-bg);background-color: #188CE8;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.87;
@@ -203,7 +203,7 @@ body{font-family: 'Roboto',sans-serif;
         letter-spacing: 0.06em;
         border-radius: 4px;border-color: transparent;display:inline-block;padding:10px 32px}
 
-.button-hero:hover{font-family: inherit; cursor:pointer; color:var(--color--for-dark-bg);background-color: #188CE8;
+.hero__button:hover{font-family: inherit; cursor:pointer; color:var(--color--for-dark-bg);background-color: #188CE8;
             font-weight: 700;
             font-size: 16px;
             line-height: 1.87;
@@ -249,7 +249,7 @@ body{font-family: 'Roboto',sans-serif;
 .header-contacts__svg-phone{margin-right: 10px;}
 
 
-.benefits-svg-zone{background-color:#F5F4FA; margin-bottom: 30px; display: flex;align-items: center;justify-content: center;width: 270px;height:120px}
+.benefits__svg-zone{background-color:#F5F4FA; margin-bottom: 30px; display: flex;align-items: center;justify-content: center;width: 270px;height:120px}
 
 .social-net-card-pers{display: flex;justify-content: center;}
 
@@ -340,7 +340,7 @@ transition:border 250ms cubic-bezier(0.4, 0, 0.2, 1),fill 250ms cubic-bezier(0.4
     text-align: center;
     letter-spacing: 0.03em;}
 
-.paragraph-studio{font-size: 14px;
+.benefits__paragraph{font-size: 14px;
     line-height: 1.71;
     /* or 171% */
     
@@ -408,9 +408,9 @@ h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}
 
 /* !переваги */
 /* .benefits{padding-top:94px;padding-bottom:118px;} */
-.benefits .list{display:flex;justify-content: space-around;justify-content: space-between;}
-.benefits-list>.item{margin-right:30px;}
-.benefit{margin-bottom:10px;}
+.benefits__list{display:flex;justify-content: space-around;justify-content: space-between;}
+.benefits__item{margin-right:30px;}
+.benefits__title{margin-bottom:10px;}
 
 /* !чим займаємося */
 .works{padding-top: 0px;}
