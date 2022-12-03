@@ -34,7 +34,7 @@ body{font-family: 'Roboto',sans-serif;
 
 /* !header css for all sheets */
 
-.mainlogo-color-header{color:var(--accent-color);
+.main-nav__logo-part--black{color:var(--accent-color);
     font-family: 'Raleway'; sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -42,7 +42,7 @@ body{font-family: 'Roboto',sans-serif;
     /* identical to box height */
     
     letter-spacing: 0.03em;}
-.mainlogo-simple-header{color:
+.main-nav__logo-part--blue{color:
     #000000;font-family: 'Raleway'; sans-serif;
     font-weight: 700;
     font-size: 26px;
