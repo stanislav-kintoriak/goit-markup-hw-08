@@ -404,7 +404,7 @@ h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}
 .mainlogo-header{padding-top:25px;padding-bottom:25px;}
 
 /* !нижня рамка хедера */
-.header-space{border-bottom: 1px solid #ECECEC;;}
+.header-space{border-bottom: 1px solid #ECECEC;}
 
 /* !герой */
 .hero{background-color: #2F303A;text-align:center;margin: 0 auto;padding-top:200px;padding-bottom:200px;}
@@ -465,7 +465,7 @@ h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}
 /* !прибираємо підкреслення тексту в посиланнях продуктів портфоліо */
 .product-link{text-decoration: none};
 
-products .list
+
 
 /* !прибираємо маржин для з ким працюємо */
 .partners-list__item{margin:0px}

@@ -1,0 +1,25 @@
+.products{display: flex;flex-wrap: wrap;margin-top: 56px;gap:30px;}
+.product .list{flex-basis: calc((100% - 60px)/3);}
+.products .list:nth-child(3n){margin-right: 0px;}
+.products .list:nth-child(1n+7){margin-bottom: 0px;}
+.product-item__description{padding:20px 24px;border: 1px solid #EEEEEE;}
+.small-title-prtf{margin-bottom:4px;padding:0px;display: block;}
+.paragraph-prtf{color:$primary-text-color;display: block;}
+.product-item__image{display: block;}
+/* !Додаємо нижню рамку в картки портфоліо */
+.product-item{box-sizing: border-box;}
+
+.product-link{display: block;transition:box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)}
+
+.product-link:hover{box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
+/* !прибираємо підкреслення тексту в посиланнях продуктів портфоліо */
+.product-link{text-decoration: none};
+
+/* !в портфоліо додаємо вспливаючі фони з текстом на картинки у картках робіт */
+
+.product-item__img-wrapper{position: relative;overflow: hidden;}
+
+.product-item__description-on{position: absolute; bottom: 0;background: rgba(33, 150, 243, 0.9);height: 100%;display: flex;justify-content: center;align-items: center;color:$color--for-dark-bg;font-size: 18px;
+    line-height: 1.555;padding-top: 63px;padding-bottom: 63px;padding-left:24px;padding-right:24px;transform:translateY(100%);transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1)}
+
+.product-item:hover .product-item__description-on{transform:translateY(0%)}

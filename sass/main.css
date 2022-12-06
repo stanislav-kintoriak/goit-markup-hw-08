@@ -1,3 +1,60 @@
-p {
-  color: 0;
+@charset "UTF-8";
+/* !видалення підкреслень для посилань    */
+.link {
+  text-decoration: none;
+}
+
+/* !видалення маркепів списку */
+.list {
+  list-style: none;
+  /* !видалення дефолтних паддінгів та маржинів */
+  padding: 0;
+  margin: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+/* !глобальне скидання стилів */
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* !видалення підкреслень для посилань    */
+.link {
+  text-decoration: none;
+}
+
+/* !видалення маркепів списку */
+.list {
+  list-style: none;
+  /* !видалення дефолтних паддінгів та маржинів */
+  padding: 0;
+  margin: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+/* !глобальне скидання стилів */
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
 }/*# sourceMappingURL=main.css.map */

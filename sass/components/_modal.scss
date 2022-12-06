@@ -1,0 +1,102 @@
+.backdrop.is-hidden{opacity: 0;pointer-events: none;}
+
+.backdrop.is-hidden .modal{transform: translate(-50%,-50%) scale(0.9);}
+
+.modal{position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1);
+    min-height: 581px;
+    min-width: 528px;padding:15px;background-color: #FFFFFF;box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+    
+    /* !додаємо кнопку закриття */
+.modal-button-svg{position: relative;}
+    
+    
+.modal__button-close{position: absolute;top: 0;right: 0;border: 1px solid rgba(0, 0, 0, 0.1);margin-right: 8px;margin-top: 8px;border-radius: 50%;background-color: transparent;width: 30px; height: 30px; display: flex; display: flex;justify-content: center;align-items: center;cursor: pointer;}
+    
+.modal{padding: 40px}
+
+.modal__input-element{display:block;width: 448px;height: 40px;border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;padding-left: 42px;cursor: pointer;font-size: 16px;}
+
+.modal__textarea{display:block;width:448px;height: 120px;border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;padding: 12px 16px;resize: none;}
+
+.modal__textarea::placeholder{font-size: 12px;line-height: 1.16;letter-spacing: 0.01em;color: rgba(117, 117, 117, 0.5)}
+
+
+
+.modal__label{font-size: 12px;line-height: 1.16;letter-spacing: 0.01em;color: #757575}
+
+.label-modal-first{margin-top:12px;margin-bottom: 4px;display: block}
+
+.label-modal-next{margin-top:10px;margin-bottom: 4px;display: block}
+
+.modal__label-textarea{font-size: 12px;line-height: 1.16;letter-spacing: 0.01em;color: #757575;margin-top:10px;margin-bottom: 4px;display: block;}
+
+.modal__input-label{position: relative;}
+    
+/* !Стилі для заголовку модалки */
+
+.modal__title{display: flex;justify-content: center; font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;color: $title-text-color;}
+
+
+/* !Стилі для кнопки сабміт */
+.modal__button-submit{display: block;margin: 0 auto;height: 50px;width:200px;background:$accent-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;border: transparent;font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;color: $color--for-dark-bg;margin-top: 30px;cursor: pointer;}
+
+
+/* !зміна кольору для іконки закриття модалки */
+.modal__button-close:hover .modal__svg-close{fill: $accent-color;}
+
+
+/* !Позиціонування іконок в межах імпуту у модалці */
+.modal__input-icon{display: block;position: absolute;left: 0;top: 65%;transform: translateY(-50%);margin-left: 15px;pointer-events: none;fill: $title-text-color;}
+
+
+
+/* !Зміна кольору для іконки та рамки при фокусі на інпут у модалці */
+.modal__input-element:focus ~ .modal__input-icon{fill: $accent-color;}
+
+.modal__input-element:focus{border: 1px solid #2196F3;
+    border-radius: 4px;outline: none;}
+
+.modal__textarea:focus{border: 1px solid #2196F3;
+    border-radius: 4px;outline: none;}
+
+
+/* !кастомні стилі для чекбокса */
+.modal__check-line{display: flex;align-items: center;padding-left: 15px;position: relative;margin-top: 20px;}
+
+.modal__checkbox-agree{display: flex;align-items: center;padding-left:25px;font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;}
+
+.modal__checkbox-input{border: 2px solid tomato;}
+
+.modal__checkbox-icon{pointer-events: none}
+
+.modal__icon-wrapper{fill: transparent;width: 16px;height: 15px;border: 2px solid $title-text-color;border-radius: 2px;pointer-events: none; position: absolute;top:50%;left: 4%;transform: translateY(-50%);display: flex;justify-content: center;align-items: center;}
+
+.modal__deal-requirements-link{font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;pointer-events: none;margin-left: 10px;}
+
+.checkbox-input:checked  + .icon-wrapper{background-color: $accent-color;border: none;}
+
+.checkbox-input:checked  + .icon-wrapper .modal__checkbox-icon {fill: $color--for-dark-bg;}
+
+/* !Стилі для лінка в лейбл до чекбокса */
+.deal-requirements-link{color: $accent-color}

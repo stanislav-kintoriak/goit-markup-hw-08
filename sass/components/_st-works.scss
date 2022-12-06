@@ -1,0 +1,14 @@
+.works{padding-top: 0px;}
+.works__title{margin:0;}
+.works__list{display: flex;margin-top:50px;justify-content: center;}
+.works__item:nth-child(3n+0){margin-right:0}
+.work__picture{display: block;}
+/* !Додаємо текст на картинки що ми робимо */
+
+.works__thumb{position: relative;display: flex;justify-content: center;}
+
+.works__text-on-thumb{position: absolute;bottom: 0;background-color: rgba(47, 48, 58, 0.8); width: 100%;display: flex;justify-content: center;align-items: center;height:70px; color: $color--for-dark-bg;font-weight: 700;
+font-size: 14px;
+line-height: 1.143;}
+
+.works__item{margin-right:30px;}
