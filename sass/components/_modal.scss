@@ -87,6 +87,9 @@
 
 .modal__checkbox-icon{pointer-events: none}
 
+
+
+
 .modal__icon-wrapper{fill: transparent;width: 16px;height: 15px;border: 2px solid $title-text-color;border-radius: 2px;pointer-events: none; position: absolute;top:50%;left: 4%;transform: translateY(-50%);display: flex;justify-content: center;align-items: center;}
 
 .modal__deal-requirements-link{font-size: 14px;
@@ -94,9 +97,13 @@
     letter-spacing: 0.03em;
     color: #757575;pointer-events: none;margin-left: 10px;}
 
-.checkbox-input:checked  + .icon-wrapper{background-color: $accent-color;border: none;}
+.modal__checkbox-input:checked  + .modal__icon-wrapper{background-color: $accent-color;border: none;}
 
-.checkbox-input:checked  + .icon-wrapper .modal__checkbox-icon {fill: $color--for-dark-bg;}
+.modal__checkbox-input:checked  + .modal__icon-wrapper .modal__checkbox-icon {fill:$color--for-dark-bg;}
+
+
+
+
 
 /* !Стилі для лінка в лейбл до чекбокса */
-.deal-requirements-link{color: $accent-color}
+.modal__deal-requirements-link{color: $accent-color}

@@ -1405,17 +1405,17 @@ img {
   margin-left: 10px;
 }
 
-.checkbox-input:checked + .icon-wrapper {
+.modal__checkbox-input:checked + .modal__icon-wrapper {
   background-color: #2196F3;
   border: none;
 }
 
-.checkbox-input:checked + .icon-wrapper .modal__checkbox-icon {
+.modal__checkbox-input:checked + .modal__icon-wrapper .modal__checkbox-icon {
   fill: #FFFFFF;
 }
 
 /* !Стилі для лінка в лейбл до чекбокса */
-.deal-requirements-link {
+.modal__deal-requirements-link {
   color: #2196F3;
 }
 
