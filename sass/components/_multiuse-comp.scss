@@ -34,3 +34,21 @@
     
 .team-section{background-color: #F5F4FA;}
 
+.title-third{color: $title-text-color;font-weight: 700;
+    font-size: 14px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
+
+.small-title-prtf{color:$title-text-color;font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;}
+
+.section-title{color: $title-text-color;font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;}

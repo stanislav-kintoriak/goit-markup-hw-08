@@ -1,19 +1,23 @@
-.logo__part--black{color:$accent-color;
-    font-family: 'Raleway'; sans-serif;
+.logo__part--black{color:$accent-color;font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     /* identical to box height */
     
     letter-spacing: 0.03em;}
+
+
+
 .logo__part--blue{color:
-    #000000;font-family: 'Raleway'; sans-serif;
+    #000000;font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     /* identical to box height */
     
     letter-spacing: 0.03em;}
+
+.logo__part--blue{font-family: 'Raleway', sans-serif}
 
 .list-studio {color:$title-text-color;font-weight: 500;
     font-size: 14px;
@@ -109,3 +113,5 @@
     height: 4px;background-color: #188CE8;bottom: 0;border-radius: 2px;}
 
 .site-nav__item{position: relative;}
+
+.header-space{border-bottom: 1px solid #ECECEC;}
