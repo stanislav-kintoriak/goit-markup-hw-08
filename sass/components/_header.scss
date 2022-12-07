@@ -90,8 +90,10 @@
 .header-contacts__svg-envelope{margin-right: 10px;}
 .header-contacts__svg-phone{margin-right: 10px;}
 
-.header-contacts{display:flex;margin-left:auto;}
-.header-contacts .header-contacts__item +.header-contacts__item{margin-left:50px;}
+.header-contacts{display:flex;margin-left:auto;
+    .header-contacts__item +.header-contacts__item{margin-left:50px;}
+}
+// .header-contacts .header-contacts__item +.header-contacts__item{margin-left:50px;}
 
 .main-nav{display:flex;align-items: center;}
 .header-zone{display:flex;align-items: center;align-items:center}
