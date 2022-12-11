@@ -38,7 +38,7 @@
 .footer-email{text-decoration:none;}
 .footer-phone{text-decoration:none;}
 
-.footer__zone{display: flex;align-items: baseline;}
+
 
 .footer__follow-zone{display: flex;flex-direction: column;}
 
@@ -105,3 +105,7 @@
 .footer__send-icon{fill: $color--for-dark-bg;margin-left: 10px;}
 
 .footer__submit-button:hover{cursor:pointer;background-color: #188CE8;}
+
+
+// Видаляємо флекси
+// .footer__zone{display: flex;align-items: baseline;}

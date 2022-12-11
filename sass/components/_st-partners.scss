@@ -1,5 +1,5 @@
 .partners-list{gap: 30px;}
-.partners-list{display: flex;justify-content: center;margin-top:50px;}
+
 .partners-list__item{width:170px;height:92px;}
 
 .partners-list__link-svg{display:block;width:100%;height:100%; border: 1px solid #AFB1B8;border-radius: 4px;fill:#AFB1B8;display: flex;
@@ -15,3 +15,7 @@ transition:border 250ms cubic-bezier(0.4, 0, 0.2, 1),fill 250ms cubic-bezier(0.4
 
 /* !прибираємо маржин для з ким працюємо */
 .partners-list__item{margin:0px}
+
+
+// Видаляємо флекси
+// .partners-list{display: flex;justify-content: center;margin-top:50px;}

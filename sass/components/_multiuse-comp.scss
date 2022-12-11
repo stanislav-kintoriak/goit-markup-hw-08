@@ -30,9 +30,7 @@
 
 .section{padding-top: 94px;padding-bottom: 94px;}
 
-.container{ padding-right: 15px; padding-left: 15px; margin: 0 auto;justify-content: space-between;}
 
-// .container{width:1200px; padding-right: 15px; padding-left: 15px; margin: 0 auto;justify-content: space-between;}
     
 .team-section{background-color: #F5F4FA;}
 
@@ -54,3 +52,34 @@
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;}
+    
+
+
+
+
+// Налаштування адаптивності для контейнера    
+    // phone screen 0px & >
+.container{max-width:480px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    
+    // tablests screen 768px & >
+    @media screen and (min-width:768px){
+        max-width:768px;
+            padding-left: 15px;
+            padding-right: 15px;
+    }
+    
+    // desctop screen 1200px & >
+    @media screen and (min-width:1200px){
+            max-width:1200px;
+            padding-left: 15px;
+            padding-right: 15px;
+           }
+    
+    
+    }
+    
+    // .container{width:1200px; padding-right: 15px; padding-left: 15px; margin: 0 auto;justify-content: space-between;}

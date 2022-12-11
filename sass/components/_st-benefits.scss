@@ -7,6 +7,10 @@
     letter-spacing: 0.03em;
     }
 
-.benefits__list{display:flex;justify-content: space-around;justify-content: space-between;}
+
+
 .benefits__item{margin-right:30px;}
 .benefits__title{margin-bottom:10px;}
+
+// Видаляємо флекси
+// .benefits__list{display:flex;justify-content: space-around;justify-content: space-between;}

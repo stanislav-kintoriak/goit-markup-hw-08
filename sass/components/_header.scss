@@ -100,7 +100,7 @@
 // .header-contacts .header-contacts__item +.header-contacts__item{margin-left:50px;}
 
 .main-nav{display:flex;align-items: center;}
-.header-zone{display:flex;align-items: center;align-items:center}
+
 
 .mainlogo-header{padding-top:25px;padding-bottom:25px;}
 
@@ -115,3 +115,6 @@
 .site-nav__item{position: relative;}
 
 .header-space{border-bottom: 1px solid #ECECEC;}
+
+// Видаляємо флекси
+// .header-zone{display:flex;align-items: center;align-items:center}
