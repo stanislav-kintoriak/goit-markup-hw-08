@@ -1,5 +1,16 @@
-.site-nav {display:flex;margin-left:93px;
-    .site-nav__item:last-child{margin-right: 0;}    }
-.site-nav__item{margin-right: 50px;}
+
+
+// АДАПТИВКА
+// Приховуємо сайт нав до 1200 пікселів вієвпорту
+.site-nav {display: none;
+    
+    @media screen and (min-width:1200px){display:flex;margin-left:93px;}
+    .site-nav__item:last-child{margin-right: 0;}    
+}
+.site-nav__item{
+    
+// Правий маржин лише для десктоп версії
+    @media screen and (min-width:1200px){margin-right: 50px;}
+   }
 // .site-nav .site-nav__item:last-child{margin-right: 0;}
 .site-nav__link{display:block;padding-top:32px;padding-bottom:32px;}

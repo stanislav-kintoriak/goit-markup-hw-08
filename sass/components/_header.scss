@@ -94,15 +94,9 @@
 .header-contacts__svg-envelope{margin-right: 10px;}
 .header-contacts__svg-phone{margin-right: 10px;}
 
-.header-contacts{display:flex;margin-left:auto;
-    .header-contacts__item +.header-contacts__item{margin-left:50px;}
-}
-// .header-contacts .header-contacts__item +.header-contacts__item{margin-left:50px;}
-
-.main-nav{display:flex;align-items: center;}
 
 
-.mainlogo-header{padding-top:25px;padding-bottom:25px;}
+
 
 /* !нижня рамка хедера */
 .header-space{border-bottom: 1px solid #ECECEC;}
@@ -116,5 +110,50 @@
 
 .header-space{border-bottom: 1px solid #ECECEC;}
 
+
+// АДАПТИВКА
+
 // Видаляємо флекси
 // .header-zone{display:flex;align-items: center;align-items:center}
+
+// Прибераємо маржин лефт для контактів хедера до 1200 пікселів
+.header-contacts .header-contacts__item +.header-contacts__item{
+   
+    // desctop screen 1200px & >
+    @media screen and (min-width:1200px){margin-left:50px;}
+    }
+    
+    
+// Ховаємо мейн нав хедера до 1200 пікселів    
+// .main-nav{display: none;
+        
+        
+//         // desctop screen 1200px & >
+//         @media screen and (min-width:1200px){display:flex;align-items: center;}
+//     }
+
+.header-contacts{display:none;
+
+    // desctop screen 1200px & >
+@media screen and (min-width:1200px){display:flex;margin-left:auto;}
+
+
+        .header-contacts__item +.header-contacts__item{
+            @media screen and (min-width:1200px){margin-left:50px;}
+            }
+    }
+
+// Встановлюємо паддінги для різниї вієвпортів
+    .logo{display: block;
+
+// desctop screen 480px & >
+@media screen and (min-width:480px){padding-top:16px;padding-bottom:16px;}
+        
+
+// desctop screen 1200px & >
+@media screen and (min-width:768px){padding-top:26px;padding-bottom:26px;}
+
+        // desctop screen 1200px & >
+@media screen and (min-width:1200px){padding-top:25px;padding-bottom:25px;}
+        
+}
