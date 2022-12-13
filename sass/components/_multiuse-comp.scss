@@ -28,7 +28,7 @@
     letter-spacing: 0.03em;
     border-radius: 4px;}
 
-.section{padding-top: 94px;padding-bottom: 94px;}
+
 
 
     
@@ -47,16 +47,7 @@
     
     letter-spacing: 0.06em;}
 
-.section-title{color: $title-text-color;font-weight: 700;
-    font-size: 28px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
 
-// desctop screen 1200px & >
-@media screen and (min-width:1200px){
-    font-size: 36px;}
-}
     
 
 
@@ -82,9 +73,40 @@
             max-width:1200px;
             padding-left: 15px;
             padding-right: 15px;
+            margin: 0 auto;justify-content: space-between;
            }
     
     
     }
+
+
+// Налаштування адаптивності секції
+.section{
+        padding-top: 60px;
+        padding-bottom: 60px;
     
-    // .container{width:1200px; padding-right: 15px; padding-left: 15px; margin: 0 auto;justify-content: space-between;}
+    
+     // tablests screen 768px & >
+     @media screen and (min-width:768px){
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    // desctop screen 1200px & >
+    @media screen and (min-width:1200px){
+        padding-top: 94px;
+        padding-bottom: 94px;
+           }
+        }
+
+// Налаштування адаптивності титлів секцій
+.section-title{color: $title-text-color;font-weight: 700;
+            font-size: 28px;
+            line-height: 1.16;
+            text-align: center;
+            letter-spacing: 0.03em;
+        
+        // desctop screen 1200px & >
+        @media screen and (min-width:1200px){
+            font-size: 36px;}
+        }
