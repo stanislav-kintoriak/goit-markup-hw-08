@@ -21,7 +21,19 @@
     <header class="header-studio-page">
       <div class="container header-zone">
         <nav class="main-nav">
+          <div class="logo-button-header-zone">
           <a href="./index.html" target="_blank" rel="noreferrer noopener nofollow" class="logo link"><span class="logo__part--blue">Web</span><span class="logo__part--black">Studio</span></a>
+          <button
+        class="menu-toggle js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        </svg>
+        <svg class="menu-togle__svg" width="40" height="40">
+          <use href="../images/icons.svg#icon-menu_40px"></use>
+        </svg>
+      </button>
+    </div>
           <ul  class="site-nav list">
             <li class="site-nav__item">
               <a href="./index.html" target="_self" rel="noreferrer noopener nofollow" class="site-nav__link  list-studio link  link current-link">Студія</a>
@@ -50,17 +62,6 @@
             >
           </li>
         </ul>
-        <button
-        class="menu-toggle js-open-menu"
-        aria-expanded="false"
-        aria-controls="mobile-menu"
-      >
-        <svg class="menu-togle__svg"
-          width="40"
-          height="40"
-          <use href="./images/icons.svg#icon-menu_40px"></use>
-        </svg>
-      </button>
       </div>
     </header>
     <main>
@@ -128,19 +129,49 @@
           <ul class="list works__list">
             <li class="works__item">
               <div class="works__thumb">
-                <img class="work__picture" src="./images/box-1.jpg" alt="html-css" width="370" />
+                <img class="work__picture" 
+                srcset="
+                ../images/whatwedo/whatwedo1_1x.jpg 370w,
+                ../images/whatwedo/whatwedo1_2x.jpg 740w
+              "
+              sizes="370px"
+              src="../images/whatwedo/whatwedo1_1x.jpg 370w"
+              alt="Десктопні додатки"
+              width="370"
+              height="294" 
+              />
                 <p class="works__text-on-thumb">ДЕСКТОПНІ ДОДАТКИ</p>
               </div>
             </li>
             <li class="works__item">
               <div class="works__thumb">
-                <img class="work__picture" src="./images/box-2.jpg" alt="java script" width="370" />
+                <img class="work__picture" 
+                srcset="
+                ../images/whatwedo/whatwedo2_1x.jpg 370w,
+                ../images/whatwedo/whatwedo2_2x.jpg 740w
+              "
+              sizes="370px"
+              src="../images/whatwedo/whatwedo2_1x.jpg 370w"
+              alt="Десктопні додатки"
+              width="370"
+              height="294" 
+              />
                 <p class="works__text-on-thumb">МОБІЛЬНІ ДОДАТКИ</p>
               </div>
             </li>
             <li class="works__item">
               <div class="works__thumb">
-                <img class="work__picture" src="./images/box-3.jpg" alt="design" width="370" />
+                <img class="work__picture" 
+                srcset="
+                ../images/whatwedo/whatwedo3_1x.jpg 370w,
+                ../images/whatwedo/whatwedo3_2x.jpg 740w
+              "
+              sizes="370px"
+              src="../images/whatwedo/whatwedo3_1x.jpg 370w"
+              alt="Десктопні додатки"
+              width="370"
+              height="294" 
+              />
                 <p class="works__text-on-thumb">ДИЗАЙНЕРСЬКІ РІШЕННЯ</p>
               </div>
             </li>
@@ -154,9 +185,17 @@
             <li class="team-list-item">
               <img
                 class="team-list-item__person-picture"
-                src="./images/photo-of-the-product-designer.jpg"
-                alt="photo of the product designer"
-                width="270"
+                srcset="
+                  ./images/personals/igor-demianenko-desk-270.jpg 270w,
+                  ./images/personals/igor-demianenko-tab-354.jpg  354w,
+                  ./images/personals/igor-demianenko-mob-450.jpg  450w,
+                  ./images/personals/igor-demianenko-desk-540.jpg 540w,
+                  ./images/personals/igor-demianenko-tab-708.jpg  708w,
+                  ./images/personals/igor-demianenko-mob-900.jpg  900w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="./images/personals/igor-demianenko-desk-270.jpg"
+                alt="Ігор Дем'яненко"
               />
               <div class="team-list-item__names-text">
                 <h3 class="team-list-item__name-title">Ігор Дем'яненко</h3>
@@ -210,9 +249,17 @@
             <li class="team-list-item">
               <img
                 class="team-list-item__person-picture"
-                src="./images/photo-of-the-frontend-developer.jpg"
-                alt="photo of the frontend developer"
-                width="270"
+                srcset="
+                  ./images/personals/olga-repina-desk-270.jpg 270w,
+                  ./images/personals/olga-repina-tab-354.jpg  354w,
+                  ./images/personals/olga-repina-mob-450.jpg  450w,
+                  ./images/personals/olga-repina-desk-540.jpg 540w,
+                  ./images/personals/olga-repina-tab-708.jpg  708w,
+                  ./images/personals/olga-repina-mob-900.jpg  900w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="./images/personals/olga-repina-desk-270.jpg"
+                alt="Ольга Рєпіна"
               />
               <div class="team-list-item__names-text">
                 <h3 class="team-list-item__name-title">Ольга Рєпіна</h3>
@@ -266,9 +313,17 @@
             <li class="team-list-item">
               <img
                 class="team-list-item__person-picture"
-                src="./images/photo-of-the-marketing-expert.jpg"
-                alt="photo of the marketing expert"
-                width="270"
+                srcset="
+                ./images/personals/mykola-tarasov-desk-270.jpg 270w,
+                ./images/personals/mykola-tarasov-tab-354.jpg  354w,
+                ./images/personals/mykola-tarasov-mob-450.jpg  450w,
+                ./images/personals/mykola-tarasov-desk-540.jpg 540w,
+                ./images/personals/mykola-tarasov-tab-708.jpg  708w,
+                ./images/personals/mykola-tarasov-mob-900.jpg  900w
+              "
+              sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+              src="./images/personals/mykola-tarasov-desk-270.jpg"
+              alt="Микола Тарасов"
               />
               <div class="team-list-item__names-text">
                 <h3 class="team-list-item__name-title">Микола Тарасов</h3>
@@ -322,9 +377,17 @@
             <li class="team-list-item">
               <img
                 class="team-list-item__person-picture"
-                src="./images/photo-of-the-UI-Designer.jpg"
-                alt="photo of the UI Designer"
-                width="270"
+                srcset="
+                  ./images/personals/mykhailo-ermakov-desk-270.jpg 270w,
+                  ./images/personals/mykhailo-ermakov-tab-354.jpg  354w,
+                  ./images/personals/mykhailo-ermakov-mob-450.jpg  450w,
+                  ./images/personals/mykhailo-ermakov-desk-540.jpg 540w,
+                  ./images/personals/mykhailo-ermakov-tab-708.jpg  708w,
+                  ./images/personals/mykhailo-ermakov-mob-900.jpg  900w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="./images/personals/mykhailo-ermakov-desk-270.jpg"
+                alt="Михайло Єрмаков"
               />
               <div class="team-list-item__names-text">
                 <h3 class="team-list-item__name-title">Михайло Єрмаков</h3>
@@ -422,8 +485,73 @@
         </div>
       </section>
     </main>
+    <!-- <Мобільне меню> -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-container__menu-toggle js-close-menu">
+        <svg width="40" height="40">
+          <use href="../images/icons.svg#icon-close_40px"></use>
+        </svg>
+      </button>
+      <nav class="mobile-menu-navigation">
+        <ul class="mobile-menu-navigation__list">
+          <li class="mobile-menu-navigation__item">
+            <a
+              href="./index.html"
+              class="mobile-menu-navigation__link mobile-menu-navigation__current"
+              >Студія</a
+            >
+          </li>
+
+          <li class="mobile-menu-navigation__item">
+            <a href="./portfolio.html" class="mobile-menu-navigation__link">Портфоліо</a>
+          </li>
+          <li>
+            <a href="#" class="mobile-menu-navigation__link">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+      <div>
+        <ul class="mobile-menu-contacts">
+          <li class="mobile-menu-contacts__item">
+            <a href="tel:+380961111111" class="mobile-menu-contacts__phone-link">
+              +38 096 111 11 11
+            </a>
+          </li>
+
+          <li class="mobile-menu-contacts__item">
+            <a href="mailto:info@devstudio.com" class="mobile-menu-contacts__mail-link">
+              info@devstudio.com
+            </a>
+          </li>
+        </ul>
+
+        <ul class="mobile-menu-social">
+          <li class="mobile-menu-social__item">
+            <a href="#" rel="noreferrer noopener nofollow" class="mobile-menu-social__link"
+              >Instagram</a
+            >
+          </li>
+          <li class="mobile-menu-social__item">
+            <a href="#" rel="noreferrer noopener nofollow" class="mobile-menu-social__link"
+              >Twitter</a
+            >
+          </li>
+          <li class="mobile-menu-social__item">
+            <a href="#" rel="noreferrer noopener nofollow" class="mobile-menu-social__link"
+              >Facebook</a
+            >
+          </li>
+          <li class="mobile-menu-social__item">
+            <a href="#" rel="noreferrer noopener nofollow" class="mobile-menu-social__link"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
     <footer class="footer">
       <div class="container footer__zone">
+        <div class="footer__footer-top">
         <div class="footer__flex">
           <a
             href="./index.html"
@@ -489,6 +617,7 @@
             </li>
           </ul>
         </div>
+      </div>
       <div class="footer__subscribe-zone">
         <p class="footer__subscribe-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
         <form class="footer__form" >
@@ -571,13 +700,17 @@
         </ul>
       </div>
     </div>
+    <!-- Scripts -->
     <script src="./js/modal.js"></script>
+
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
     ></script>
+
     <script defer src="./js/mobile-menu.js"></script>
+
   </body>
 </html>

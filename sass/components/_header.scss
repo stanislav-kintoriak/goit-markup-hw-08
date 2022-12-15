@@ -94,7 +94,7 @@
 .header-contacts__svg-envelope{margin-right: 10px;}
 .header-contacts__svg-phone{margin-right: 10px;}
 
-
+        
 
 
 
@@ -106,9 +106,37 @@
     width: 100%;
     height: 4px;background-color: #188CE8;bottom: 0;border-radius: 2px;}
 
-.site-nav__item{position: relative;}
+
 
 .header-space{border-bottom: 1px solid #ECECEC;}
+
+
+// Для меню
+.menu-toggle {
+    min-height: 40px;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+  }
+  
+  @media (min-width: 768px) {
+    .menu-toggle {
+      display: none;
+    }
+  }
+  
+  .menu-toggle:hover,
+  .menu-toggle:focus {
+    background-color: rgba(0, 0, 0, 0.1);fill: $accent-color;}
 
 
 // АДАПТИВКА
@@ -123,19 +151,45 @@
     @media screen and (min-width:1200px){margin-left:50px;}
     }
     
+
+
+.header-contacts__email,.header-contacts__phone {
+    text-decoration: none;
+  
+    @media screen and (min-width: 768px) {
+      display: flex;
+  
+      align-items: center;
+  
+      color: $primary-text-color;
+  
+      font-size: 12px;
+    }
+  
+    @media screen and (min-width: 1200px) {
+      font-size: 14px;
+    }
+  }
+
+
+
+
+.header-contacts{display: flex;
+
+flex-direction: column;
+font-weight: 500;
+line-height: 1.17;
+letter-spacing: 0.02em;
+
+transition: color 250ms;
     
-// Ховаємо мейн нав хедера до 1200 пікселів    
-// .main-nav{display: none;
-        
-        
-//         // desctop screen 1200px & >
-//         @media screen and (min-width:1200px){display:flex;align-items: center;}
-//     }
+    
+    
+@media (max-width: 767px) {
+    display: none;}
 
-.header-contacts{display:none;
-
-    // desctop screen 1200px & >
-@media screen and (min-width:1200px){display:flex;margin-left:auto;}
+@media screen and (min-width: 1200px) {
+    flex-direction: row;}
 
 
         .header-contacts__item +.header-contacts__item{
@@ -143,7 +197,7 @@
             }
     }
 
-// Встановлюємо паддінги для різниї вієвпортів
+// Встановлюємо паддінги для різниї вієвпортів(ok)
     .logo{display: block;
 
 // desctop screen 480px & >
@@ -151,9 +205,38 @@
         
 
 // desctop screen 1200px & >
-@media screen and (min-width:768px){padding-top:26px;padding-bottom:26px;}
+@media screen and (min-width:768px){padding-top:26px;padding-bottom:26px;margin-right: 88px;}
 
         // desctop screen 1200px & >
-@media screen and (min-width:1200px){padding-top:25px;padding-bottom:25px;}
+@media screen and (min-width:1200px){margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;}
         
+}
+
+
+
+.logo-button-header-zone{display: flex;justify-content: space-between;}
+
+.main-nav {
+    display: flex;
+  
+    justify-content: space-between;
+  
+    align-items: center;
+  
+    @media screen and (max-width: 767px) {
+      height: 60px;
+  
+      padding: 16px 23px 16px 15px;
+    }
+  
+    @media screen and (min-width: 1200px) {
+      justify-content: flex-end;
+  
+      min-height: 80px;
+    }
+  }
+
+.header-sone{display: flex;
 }
