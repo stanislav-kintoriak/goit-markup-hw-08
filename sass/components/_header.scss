@@ -79,7 +79,9 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;fill:currentColor;display: flex;align-items: center;transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1)}
-.header-contacts__phone:hover{color:$accent-color;font-weight: 500;
+    
+
+    .header-contacts__phone:hover{color:$accent-color;font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;} 
@@ -92,7 +94,9 @@
 .site-nav .current-link{color: $accent-color;}
 
 .header-contacts__svg-envelope{margin-right: 10px;}
-.header-contacts__svg-phone{margin-right: 10px;}
+.header-contacts__svg-phone{margin-right: 10px;
+    @media screen and (min-width: 768px) and (max-width: 1199px){margin-left: 3px;}
+}
 
         
 
@@ -108,7 +112,7 @@
 
 
 
-.header-space{border-bottom: 1px solid #ECECEC;}
+
 
 
 // Для меню
@@ -141,8 +145,10 @@
 
 // АДАПТИВКА
 
-// Видаляємо флекси
-// .header-zone{display:flex;align-items: center;align-items:center}
+
+
+
+
 
 // Прибераємо маржин лефт для контактів хедера до 1200 пікселів
 .header-contacts .header-contacts__item +.header-contacts__item{
@@ -164,10 +170,11 @@
       color: $primary-text-color;
   
       font-size: 12px;
+      margin-left: 96px;
     }
   
     @media screen and (min-width: 1200px) {
-      font-size: 14px;
+      font-size: 14px; margin-left: 0;
     }
   }
 
@@ -185,7 +192,7 @@ transition: color 250ms;
     
     
     
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
     display: none;}
 
 @media screen and (min-width: 1200px) {
@@ -201,7 +208,7 @@ transition: color 250ms;
     .logo{display: block;
 
 // desctop screen 480px & >
-@media screen and (min-width:480px){padding-top:16px;padding-bottom:16px;}
+@media screen and (min-width:767px){padding-top:16px;padding-bottom:16px;}
         
 
 // desctop screen 1200px & >
@@ -214,16 +221,13 @@ transition: color 250ms;
         
 }
 
-
-
 .logo-button-header-zone{display: flex;justify-content: space-between;}
 
 .main-nav {
     display: flex;
   
-    justify-content: space-between;
+   
   
-    align-items: center;
   
     @media screen and (max-width: 767px) {
       height: 60px;
@@ -238,5 +242,6 @@ transition: color 250ms;
     }
   }
 
-.header-sone{display: flex;
-}
+.header-zone{display: flex;align-items: center;position: relative;}
+
+.menu-togle__svg{position: absolute;right: 8%;top: 20%;}
