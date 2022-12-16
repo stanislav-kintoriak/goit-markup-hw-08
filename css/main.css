@@ -1803,6 +1803,7 @@ img {
   line-height: 1.15;
   letter-spacing: 0.03em;
   color: #212121;
+  text-align: center;
 }
 
 /* !Стилі для кнопки сабміт */
